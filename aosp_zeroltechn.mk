@@ -1,5 +1,5 @@
 # Initialise device config
-$(call inherit-product, device/samsung/zeroltespr/full_zeroltespr.mk)
+$(call inherit-product, device/samsung/zeroltechn/full_zeroltechn.mk)
 
 TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
@@ -14,11 +14,11 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, vendor/nexus/product.mk)
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRODUCT_NAME="zeroltespr" \
+    PRODUCT_NAME="zeroltechn" \
     TARGET_DEVICE="zerolte"
 
-PRODUCT_NAME := aosp_zeroltespr
-PRODUCT_DEVICE := zeroltespr
+PRODUCT_NAME := aosp_zeroltechn
+PRODUCT_DEVICE := zeroltechn
 
 # Unified Power-HAL support
 DEVICE_TREE_IS_AOSP := true
