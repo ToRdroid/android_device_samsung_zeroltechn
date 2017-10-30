@@ -16,5 +16,6 @@
 
 add_lunch_combo aokp_zeroltechn-userdebug
 add_lunch_combo aosp_zeroltechn-userdebug
+add_lunch_combo gzosp_zeroltechn-userdebug
 add_lunch_combo lineage_zeroltechn-userdebug
 add_lunch_combo omni_zeroltechn-userdebug
